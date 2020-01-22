@@ -65,12 +65,12 @@
       list-style: none;
       font-size: 0.8rem;
       font-weight: 100;
-      padding: 0;
+      padding: 20px;
     }
 
     ul.links li {
       display: inline;
-      margin: 2px;
+      margin: 5px;
     }
 
     ul.links img {
@@ -86,7 +86,6 @@
       font-size: 0.8rem;
       font-weight: 100;
       margin-top: auto;
-      padding: 5px;
       flex-wrap: wrap;
       align-items: center;
     }
@@ -112,13 +111,17 @@
     }
 
     .construccion {
-      padding: 30px;
-      max-width: 600px;
+      text-align: center;
+      padding: 20px;
+    }
+
+    .construccion img {
+      width: 80%
     }
 
     .title {
       text-align: center;
-      font-size: 2.15rem;
+      font-size: calc(1.5em + 1vw);
       letter-spacing: 0.5rem;
       font-weight: bold;
       text-transform: uppercase;
@@ -169,7 +172,7 @@
 
     <article class="main">
 
-      <img alt="sitio web" class="construccion" src="assets/media/SVG/construccion.svg"/>
+      <div class="construccion">  <img alt="sitio web" src="assets/media/SVG/construccion.svg"/></div>
       <h2 class="title">En construcción</h2>
       <p class="description">Disculpe las molestias, estamos trabajando
         en un nuevo sitio pensado para usted.</p>
