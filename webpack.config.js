@@ -87,8 +87,8 @@ const config = {
       // favicon background color (see https://github.com/haydenbleasel/favicons#usage)
       background: '#181718',
       // favicon app title (see https://github.com/haydenbleasel/favicons#usage)
-      title: 'CloserLuc',
-
+      title: 'Comming Soon',
+      developer: 'Lucas Del Pozzi',
       // which icons should be generated (see https://github.com/haydenbleasel/favicons#usage)
       icons: {
         android: true,

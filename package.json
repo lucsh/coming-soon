@@ -1,7 +1,7 @@
 {
-  "name": "personal",
+  "name": "comming-soon",
   "version": "1.0.0",
-  "description": "luc.sh landing page",
+  "description": "mil ruedas comming soon page",
   "main": "index.html",
   "scripts": {
     "build": "./node_modules/.bin/webpack",
